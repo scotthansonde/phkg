@@ -10,10 +10,10 @@ export interface Props {
 const { title, icon, content } = Astro.props;
 ---
 <!--  sm:justify-evenly -->
-<section class="py-14 sm:flex sm:items-center text-center sm:text-left">
-  <Icon name={icon} class="overflow-hidden inline-flex sm:m-8 w-28 h-28" />
+<section class="py-7 sm:px-32 px-0 sm:flex sm:items-center text-center sm:text-left">
+  <Icon name={icon} class="overflow-hidden inline-flex sm:m-8 w-20 h-20" />
   <header class="mt-8 max-w-lg sm:my-0 mx-auto sm:mx-0">
-    <h1 class="sm:text-4xl text-3xl font-bold mb-4 dark:text-white">{title}</h1>
+    <h1 class="sm:text-2xl text-2xl font-bold mb-4 dark:text-white">{title}</h1>
     <p class="max-w-10 font-normal leading-7 dark:text-zinc-300 sm:max-w-sm md:max-w-xl" set:html={content}></p>
   </header>
 </section>

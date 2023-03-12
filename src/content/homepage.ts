@@ -1,27 +1,25 @@
-const desktopIcons = "dark:text-zinc-300 text-black hover:text-zinc-500 dark:hover:text-zinc-400 sm:block";
-
 export const homepage = [
   {
-    title: "Post",
+    title: "Anschrift",
     content: "Harburger Straße 19<br />21244 Buchholz i.d.N.<br />Deutschland",
-    icon: "bi:house",
-
-  },
-  {
-    title: "Telefon",
-    content: "+49-4181-9399291",
-    icon: "bi:telephone",
+    icon: "bi:mailbox",
 
   },
   {
     title: "Mail",
-    content: `<a href="mailto:info@mcdonalds-nordheide.de" class="${desktopIcons}">info@mcdonalds-nordheide.de</a>`,
+    content: `<a href="mailto:info@mcdonalds-nordheide.de" class="hover:underline">info@mcdonalds-nordheide.de</a>`,
     icon: "bi:envelope",
 
   },
   {
+    title: "Telefon",
+    content: "+49-4181-939929-0",
+    icon: "bi:telephone",
+
+  },
+  {
     title: "Homepage",
-    content: `<a href="https://www.mcdonalds-nordheide.de" class="${desktopIcons}">www.mcdonalds-nordheide.de</a>`,
+    content: `<a href="https://www.mcdonalds-nordheide.de" class="hover:underline">www.mcdonalds-nordheide.de</a>`,
     icon: "bi:code-slash",
   },
 ];
