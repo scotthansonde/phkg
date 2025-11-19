@@ -3,7 +3,6 @@ import compress from "astro-compress";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
-import image from "@astrojs/image";
 import astroLayouts from "astro-layouts";
 import codeTitle from "remark-code-title";
 
@@ -36,9 +35,6 @@ export default defineConfig({
     }),
     tailwind(),
     sitemap(),
-    mdx(),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp",
-    }),
-  ],
+    mdx()
+    ],
 });
